@@ -41,6 +41,9 @@ Référentiel complet du système Media Drupal 8-11+ (core depuis D8.6) : Media 
 | MediaWidget dans un formulaire custom | `entity_reference` field avec Media Library widget | [media-programmatic.md](media-programmatic.md) |
 | Référencer un Media depuis JSON:API | `?include=field_image.field_media_image` | [media-programmatic.md](media-programmatic.md) |
 | Nettoyer les médias orphelins | Module `media_entity_file_replace` ou cron custom | [media-programmatic.md](media-programmatic.md) |
+| **Recadrage manuel par le rédacteur** | `drupal/image_widget_crop` — crop zones configurables | [media-library.md](media-library.md) |
+| **Images SVG nativement dans Drupal** | `drupal/svg_image` — render les SVG inline ou via `<img>` | [media-types.md](media-types.md) |
+| Téléchargement de média avec bouton | `drupal/media_entity_download` — ajoute un lien download | [media-library.md](media-library.md) |
 
 ## Différences File vs Image vs Media
 
